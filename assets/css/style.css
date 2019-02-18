@@ -1,0 +1,79 @@
+body {
+	/* font-family: 'Permanent Marker', cursive; */
+	font-family: 'Kalam', cursive;
+}
+
+#title {
+	margin-left: 30px;
+	font-size: 2em;
+}
+
+div {
+	
+	float: left;
+}
+
+#first {
+
+		border-radius: 20px;
+		width: 250px;
+		height: 140px;	
+		padding-left: 20px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		background-color: pink;
+	}
+
+#second {
+		border-radius: 20px;
+		width: 200px;
+		height: 140px;		
+		padding-left: 10px;
+		margin-bottom: 20px;
+		background-color: lightgrey;
+}
+
+#stopFloat {
+			clear: both;
+}
+
+h3 {
+	border-radius: 20px;
+	width: 250px;
+	height: 35px;
+	padding-left: 20px;
+	padding-top: 10px;
+	background-color: #ffe9ec;
+
+}
+
+#blue {
+	border-radius: 20px;
+	width: 250px;
+	height: 200px;
+	padding-left: 20px;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	background-color: #ffe9ec;
+}
+#redgem, #yellowgem, #greengem, #purplegem {
+	margin-left: 20px;
+}
+
+footer {
+	clear: both;
+	height: 0px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	margin-bottom: 90px;
+}
+
+#first:hover, #blue:hover {
+	box-shadow: 15px 15px 15px gray;
+	transition: box-shadow 1s;
+}
+
+#title {
+	color: palevioletred;
+
+}
