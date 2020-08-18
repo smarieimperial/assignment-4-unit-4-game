@@ -2,32 +2,28 @@
 <html>
     <head>
         <title id="title">Crystals Collector!</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css"> <!-- this links to unit-4-game/assets/css/style.css -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
         <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
-        <!-- <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet"> -->
         <link href="https://fonts.googleapis.com/css?family=Kalam:700" rel="stylesheet">
     </head>
 
-<body background="assets/css/backgroundgem.jpg">
+<body>
 
     <div id="container"> 
-	
-    <h1 id="title">Crystals-Collector!</h1>
+	<a href="/index.html">Welcome Page</a>
+    <h1 id="title">Crystal-Collector!</h1>
 
-    <!-- <p><span id="output"></span></p> -->
     <p>You will be given a random number at the start of the game.</p>
-    <p>There are four crystals below. By clicking on a crystal you
-        will add a specific amount of points to your total score.</p>
+    <p>There are three crystals below to choose from.</p>
+    <p>By clicking on one you will add a specific amount of points to your total score & each value is hidden until clicked on.</p>
+
     <p>You win the game by matching your total score to the random number,
         you lose the game if your total score goes above the random number.</p>
-    <p>The value of each crystal is hidden from you until you click on it.</p>
-    <p>Each time when the game starts, the game will change the values
-    of each crystal.</p>
+
 
     <div id="first"><h1><span id="randomNumber"></span></h1></div>
 
-    <!-- <div id="second"> -->
-    <p><span id='updateMe' data-youwin="You win!!"></span></p> <!-- print out either You win!! or You lose!! -->
+    <p><span id='updateMe' data-youwin="You win!!"></span></p> 
     <p><span id='update' data-youlose="You lose!!"></span></p>
     <p><h4>Wins: <span id="wins"></span></h4></p> 
     <p><h4>Losses: <span id="losses"></span></h4></p>
@@ -36,25 +32,26 @@
     <p id="stopFloat"></p>
 
     <!-- image of colored gems that Player clicks on -->
-    <img height="200px" id="redgem" src="http://i.imgur.com/6ipUqve.gif"> 
-    <img height="200px" id="yellowgem" src="https://i.imgur.com/POO8fEn.gif">
-    <!-- <img height="200px" id="newgem" src="http://pa1.narvii.com/6843/69282c4801c75264a6c1f0f8d897be4304b3b222_00.gif">    -->
-    <!-- <img height="200px" id="yellowgem" src="http://2.bp.blogspot.com/-RgSNA5j5rC8/Us3klBqNx3I/AAAAAAAA0OU/Nabcg5U9u2Q/s320/diamond_animation.gif"> -->
-    <!-- <img height="200px" id="yellowgem" src="http://www.clrlworld.com/lapidary/Images/3wisemen.gif"> -->
-    <img height="180px" id="greengem" src="http://img.over-blog-kiwi.com/1/00/45/49/20151006/ob_e30337_diamandmobile.gif">
-    <!-- <img height="180px" id="greengem" src="https://i.gifer.com/7XPV.gif"> -->
-    <img height="200px" id="purplegem" src="https://img1.picmix.com/output/stamp/normal/4/7/7/0/290774_01491.gif">
+   
+        <img width="300px" height="200px" id="whitegem" src="http://2.bp.blogspot.com/-RgSNA5j5rC8/Us3klBqNx3I/AAAAAAAA0OU/Nabcg5U9u2Q/s320/diamond_animation.gif"> 
     
+<!--    removed the cleargem because of trojan warning from malwarebytes-->
+        
+        <img width="230px" height="240px" id="bluegem" src="https://downloadhdwallpapers.in/wp-content/uploads/2018/06/Sparkling-Diamond-Bling-Animated-Gif-Nice-Hot-.gif"> 
+        
+        <img width="240px" height="210px" id="sparklegem" src="https://img1.picmix.com/output/stamp/normal/4/7/7/0/290774_01491.gif">
+    
+   
     <p id="your"><h3>Your total score is: <span id="yourScore"></span></h3></p>
     
     <div id="blue"><h1><span id="totalScore"></span></h1></div>
     <br />
-    <footer>&copy GemCollector by Stephanie Imperial</footer>
+    <footer>&copy CrystalCollector by Stephanie</footer>
 </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <script type="text/javascript" src="assets/javascript/game.js"></script> <!-- this links to unit-4-game/assets/javascript/game.js -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script> 
 
 
 </body>

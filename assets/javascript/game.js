@@ -43,43 +43,43 @@
         }
    
 //==============================================
-        // red gem... when clicked...
+        // white gem... when clicked...
     var clicked = Math.ceil(Math.random()*12);
-    var red = clicked;
-        $('#redgem').on('click', function() {
-            console.log(red);
-            total = total + red;
+    var white = clicked;
+        $('#whitegem').on('click', function() {
+            console.log(white);
+            total = total + white;
             document.querySelector('#totalScore').innerText = total;  
             youlose();
             youwin();
 });
-        // yellow gem... when clicked...
+        // clear gem... when clicked...
     var clicked = Math.ceil(Math.random()*12);
-    var yellow = clicked;
-        $('#yellowgem').on('click', function() {
-            console.log(yellow);
-            total = total + yellow;
+    var clear = clicked;
+        $('#cleargem').on('click', function() {
+            console.log(clear);
+            total = total + clear;
             document.querySelector('#totalScore').innerText = total; 
             youlose();
             youwin();
 });
-        // green gem... when clicked...
+        // blue gem... when clicked...
     var clicked = Math.ceil(Math.random()*12);
-    var green = clicked;
-        $('#greengem').on('click', function() {
-            console.log(green); 
+    var blue = clicked;
+        $('#bluegem').on('click', function() {
+            console.log(blue); 
             document.querySelector('#totalScore').innerText = total; 
-            total = total + green;
+            total = total + blue;
             youlose();
             youwin();
 });
-        // purple gem... when clicked...
+        // sparkle gem... when clicked...
     var clicked = Math.ceil(Math.random()*12);
-    var purple = clicked;
-        $('#purplegem').on('click', function() {
-            console.log(purple);
+    var sparkle = clicked;
+        $('#sparklegem').on('click', function() {
+            console.log(sparkle);
             document.querySelector('#totalScore').innerText = total; 
-            total = total + purple;
+            total = total + sparkle;
             youlose();
             youwin();
     });
